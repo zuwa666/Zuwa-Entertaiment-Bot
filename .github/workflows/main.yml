@@ -1,0 +1,30 @@
+name: Zuwa Bot
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run bot
+        env:
+          SESSION_ID: ${{ secrets.SESSION_ID }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          node index.js
