@@ -1,4 +1,4 @@
-import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys"
+import makeWASocket, { useMultiFileAuthState } from "@index.js/baileys"
 import qrcode from "qrcode-terminal"
 
 async function startBot() {
