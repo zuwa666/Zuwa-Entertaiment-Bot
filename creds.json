@@ -1,0 +1,31 @@
+{
+  "noiseKey": {
+    "private": "0",
+    "public": "0"
+  },
+  "signedIdentityKey": {
+    "private": "0",
+    "public": "0"
+  },
+  "signedPreKey": {
+    "keyPair": {
+      "private": "0",
+      "public": "0"
+    },
+    "signature": "0",
+    "keyId": 1
+  },
+  "registrationId": 1,
+  "advSecretKey": "0",
+  "processedHistoryMessages": [],
+  "nextPreKeyId": 1,
+  "firstUnuploadedPreKeyId": 1,
+  "accountSyncCounter": 1,
+  "accountSettings": {
+    "unarchiveChats": false
+  },
+  "deviceId": "device-1",
+  "phoneId": "phone-1",
+  "identityId": { "0": 0 },
+  "registered": true
+}
