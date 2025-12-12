@@ -47,3 +47,4 @@ const app = express()
 app.get("/", (req, res) => res.send("Zuwa Bot Inafanya Kazi ✔️"))
 app.listen(3000, () => console.log("Server running"))
 
+
